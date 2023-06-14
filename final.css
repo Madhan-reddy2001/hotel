@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    background-image: url(./spices-black-background-space-text.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.border{
+    height:600px;
+    width:600px;
+    background-color: cornsilk;
+    margin: auto;
+    margin-top: 16%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.border h1{
+    text-align: center;
+    padding-top: 170px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+}

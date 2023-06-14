@@ -1,0 +1,482 @@
+body{
+    background-color: whitesmoke;
+}
+.titleb{
+  width:1400px;
+  height:100px;
+  background-color: brown;
+}
+.image{
+     border-radius:50px 50px 50px 50px;
+     margin-left:1%;
+     object-fit: cover;
+
+}
+.hotelname{
+    margin-left:15%;
+    margin-top:-5%;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:x-large;
+    color:white;
+}
+u{
+  color:white;
+}
+.text{
+  display:flex;
+  justify-content: space-evenly;
+  margin-top: -5%;
+  margin-left: 35%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.home{
+  margin-left:300%;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.contact
+{
+    margin-left:120%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.menu
+{
+  margin-left: 370%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.about
+{
+    margin-left:100%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.ordernow
+{
+    margin-left:100%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.booknow
+{
+    margin-left:150%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+.menu:hover {
+    color: orange;
+    
+  }
+  .home:hover {
+    color: orange;
+    
+  }
+  .contact:hover {
+    color: orange;
+    
+  }
+  .about:hover {
+    color: orange;
+    
+  }
+  .booknow:hover {
+    color: orange;
+    
+  }
+  .ordernow:hover {
+    color: orange;
+    
+  }
+  .mainslide
+  {
+    width:1100px;
+    height:200px;
+    border-style: solid;
+    border-color: whitesmoke;
+    margin-top: 2%;
+    margin-left: 10%;
+  }
+  .slideshow{
+    width:900px;
+    height:200px;
+    background-image: url(./food-menu-restaurant-facebook-cover-template_120329-1688.jpeg);
+    margin-top: auto 10px;
+    margin-left: 10%;
+    animation: slide 30s infinite;
+  }
+  @keyframes slide{
+    25%{
+      background-image: url(./delicious-food-sales-menu-facebook-cover-template_120329-850.jpeg);
+    }
+    50%{
+      background-image: url(./food-menu-restaurant-social-media-cover-template_202595-368.jpeg);
+    }
+    75%{
+      background-image: url(./food-menu-restaurant-facebook-cover-template_120329-1688.jpeg);
+    }
+    100%{
+      background-image: url(./food-menu-restaurant-facebook-cover-template_106176-726.jpeg);
+    }
+  }
+  .images{
+    display:flex;
+    justify-content: space-evenly;
+    position:absolute;
+  }
+  
+  .image1{
+    margin-top: 5%;
+    border-radius: 50%;
+  }
+  .image1:hover{
+    transform: scale(1.1);
+    border: 2px solid black;
+  }
+  .image2{
+    border-radius: 50%;
+    margin-left: 10%;
+  }
+  .image2:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+  }
+  .image3{
+    border-radius: 50%;
+    margin-left: 30%;
+  }
+  .image3:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+  }
+  .image4{
+    border-radius: 50%;
+    margin-left: 50%;
+  }
+  .image4:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+  }
+  .image5{
+    border-radius: 50%;
+    margin-left: 70%;
+  }
+  .image5:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+  }
+  .image6{
+    border-radius: 50%;
+    margin-left: 90%;
+  }
+  .image6:hover{
+    transform:scale(1.1);
+    border:2px solid black;
+  }
+  .menus
+  {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background-color: brown;
+  }
+  .menus:hover{
+    transform: scale(1.1);
+    border:2px solid white;
+  }
+  .boxes{
+    display: flex;
+    justify-content: space-evenly;
+    position:absolute;
+    margin-top:18%;
+    margin-left: 2%;
+  }
+  .box1{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    margin-top: 24%;
+    border-radius: 30%;
+    margin-left: 2%;
+    color: white;
+  }
+  .box2{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    color:white;
+    border-radius: 30%;
+    margin-left: 110%;
+    margin-top: 24%;
+  }
+  .box3{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    color:white;
+    border-radius: 30%;
+    margin-left: 200%;
+    margin-top: 24%;
+  }
+  .box4{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    color:white;
+    border-radius: 30%;
+    margin-left: 310%;
+    margin-top: 24%;
+
+  }
+  .box5{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    color:white;
+    border-radius: 30%;
+    margin-left: 450%;
+    margin-top: 24%;
+
+  }
+  .box6{
+    width:110px;
+    height:20px;
+    border-color: orange;
+    background-color: orange;
+    border-style: solid;
+    color:white;
+    border-radius: 30%;
+    margin-left: 550%;
+    margin-top: 24%;
+
+  }
+  div.offer{
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    object-fit: cover;
+  }
+  div.offer img{
+    padding:10px;
+
+  }
+  div.offer img:hover{
+    transform:scale(1.1) ;
+
+  }
+ 
+  .border{
+    width:1400px;
+    height:300px;
+    background-color: brown;
+    margin-top: 5%;
+    position:relative;
+
+  }
+  .innerborder{
+    width:800px;
+    height:200px;
+    background-color: white;
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 20%;
+    border-radius:20px 20px 20px 20px;
+    font-size:50;
+    
+  }
+  .bordertext{
+    margin-top:1%;
+    margin-left: 20%;
+    font-family:'Times New Roman', Times, serif;
+  }
+  h3{
+    margin-left:30% ;
+    font-size: 40px;
+  }
+  .tel{
+    margin-top:-15%;
+    position: absolute;
+    margin-left: 15%;
+  }
+  .imageb{
+    margin-top: 5%;
+    margin-left:20%;
+    position: relative;
+    border-radius: 50px 50px 50px 50px;
+
+  }
+  h6{
+    margin-top: -28%;
+    position: absolute;
+    margin-left: 26%;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+  }
+  .bigfont{
+    margin-top: -26%;
+    position: absolute;
+    margin-left: 21%;
+    color:orange;
+    font-size: 40px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+  .link{
+    width:100px;
+    height:20px;
+    background-color: orangered;
+    color: white;
+    border-radius: 10%;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 25%;
+    margin-top:-16%;
+    font-weight: bold;
+
+  }
+.containers
+{
+  display: flex;
+  justify-content: space-evenly;
+} 
+.cont2{
+  border: 2px solid white;
+  object-fit: cover;
+  border-radius: 50px 50px 50px 50px;
+  margin-left: 25px;
+  margin-top: 20px
+}
+.containers1
+{
+  border: 2px solid grey;
+  width:250px;
+  height:400px;
+  border-radius: 50px 50px 50px 50px;
+  background-color: brown;
+}
+.containers1:hover{
+  background-color: chartreuse;
+  transform: scale(1.1);
+}
+.contt{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.read{
+  width:100px;
+  height:30px;
+  border-radius: 50px 50px 50px 50px;
+  border-style: solid;
+  background-color: orange;
+  margin-top: 1%;
+  margin-left: 30%;
+  position: relative;
+}
+.final{
+    width: 800px;
+    height:400px;
+    border:2px solid white;
+    border-radius:50px 50px 50px 50px;
+    margin-top:7%;
+    margin-left:15%;
+    background-color: grey;
+}
+.circle{
+  width:200px;
+  height:200px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left: 5%;
+  position: relative;
+}
+.rm{
+  width:100px;
+  height:20px;
+  background-color: orangered;
+  color: white;
+  margin-top: -6%;
+  margin-left:20%;
+  border-radius: 50px 50px 50px 50px;
+}
+.cm{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left:150%;
+  margin-top: -155%;
+}
+.m{
+  object-fit: cover;
+  margin-top: 22%;
+  margin-left:16%;
+
+}
+.cmm{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left:10%;
+  margin-top: 50%;
+}
+.mm{
+  object-fit: cover;
+  margin-top: 22%;
+  margin-left:16%;
+
+}
+.cmp{
+  height:100px;
+  width:100px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-left:10%;
+  margin-top: 50%;
+}
+.mp{
+  object-fit: cover;
+  margin-top: 22%;
+  margin-left:16%;
+
+}
+.ch{
+  margin-left: 220%;
+  margin-top: -50%;
+  font-size:xx-large;
+  font-family:'Times New Roman', Times, serif;
+  color: white;
+}
+.lh{
+  margin-left: 220%;
+  margin-top: 40%;
+  font-size:large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight:bold ;
+}
+.ph{
+  margin-left: 220%;
+  margin-top: 30%;
+  font-size:x-large;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight:bold ;
+
+}

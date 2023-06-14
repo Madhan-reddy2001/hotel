@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    background-image: url(./baked-dorado-fish-with-rice-vegetables-black-plate-top-view-free-space-your-text_187166-16574.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+.border{
+    height:500px;
+    width:400px;
+    background-color: black;
+    margin-left:160%;
+    margin-top:3%;
+    border:2px solid cornsilk;
+}
+.text{
+    margin: auto;
+    padding-top: 20px;
+    padding-left: 120px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cornsilk;
+}
+.border1{
+    height:100px;
+    width:600px;
+    background-color: maroon;
+    margin-top: -2%;
+    margin-left: 0%;
+}
+.border2{
+    height: 90px;
+    width:200px;
+    margin-top: -12%;
+    color:black;
+    margin-left: -5%;
+}
+.border1 h1{
+    margin: auto;
+    margin-left: 27%;
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+}
